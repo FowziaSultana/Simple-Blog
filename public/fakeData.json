@@ -1,0 +1,47 @@
+[
+	{
+		"id": "82EE1D5D-176F-B84A-E1A1-DE5CE9DD4952",
+		"authorName": "Sarah Odom",
+		"blogTitle": "ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor",
+		"blogCoverImages": "https://twitter.com",
+		"authorImages": "https://zoom.us",
+		"readTime": 9,
+		"publishDate": "May 11, 2022"
+	},
+	{
+		"id": "414C5331-FDEE-9253-AED1-643C4845D536",
+		"authorName": "Benjamin Irwin",
+		"blogTitle": "nunc ac mattis ornare, lectus ante dictum mi, ac mattis",
+		"blogCoverImages": "https://yahoo.com",
+		"authorImages": "https://guardian.co.uk",
+		"readTime": 2,
+		"publishDate": "Aug 14, 2022"
+	},
+	{
+		"id": "2617EEBA-2169-85BD-3B86-80B357177E63",
+		"authorName": "Carla Anthony",
+		"blogTitle": "iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur",
+		"blogCoverImages": "https://twitter.com",
+		"authorImages": "https://whatsapp.com",
+		"readTime": 8,
+		"publishDate": "Oct 3, 2022"
+	},
+	{
+		"id": "A4DD8D6E-DFCC-2866-A9D1-2E8963D5688A",
+		"authorName": "Evan Hopkins",
+		"blogTitle": "dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu",
+		"blogCoverImages": "https://bbc.co.uk",
+		"authorImages": "http://nytimes.com",
+		"readTime": 8,
+		"publishDate": "Apr 10, 2022"
+	},
+	{
+		"id": "9F8950EE-3A88-361A-71CC-2743477FEA2C",
+		"authorName": "Cullen Berger",
+		"blogTitle": "odio tristique pharetra. Quisque ac libero nec ligula consectetuer rhoncus.",
+		"blogCoverImages": "http://reddit.com",
+		"authorImages": "http://youtube.com",
+		"readTime": 1,
+		"publishDate": "May 9, 2022"
+	}
+]
