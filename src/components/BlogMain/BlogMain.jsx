@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import SingleBlog from "../SingleBlog/SingleBlog";
 import SideBar from "../SideBar/SideBar";
+import Swal from "sweetalert2";
 
 const BlogMain = () => {
   const [markedBlogs, setMarkBlog] = useState([]);
@@ -17,6 +18,7 @@ const BlogMain = () => {
   const handleMarkRead = (title) => {
     let tempArr = [...markedBlogs, title];
     setMarkBlog(tempArr);
+    Swal.fire("Good job!", "You clicked the button!", "success");
   };
 
   return (
