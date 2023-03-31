@@ -5,6 +5,7 @@ import { useState } from "react";
 import SingleBlog from "../SingleBlog/SingleBlog";
 import SideBar from "../SideBar/SideBar";
 import Swal from "sweetalert2";
+import BlogQA from "../BlogQA/BlogQA";
 
 const BlogMain = () => {
   const [markedBlogs, setMarkBlog] = useState([]);
@@ -31,7 +32,7 @@ const BlogMain = () => {
   };
 
   return (
-    <div className="container row mx-auto mt-5 ">
+    <div className=" container row mx-auto mt-5 ">
       <div className="col-lg-8">
         {blogs.map((aBlog) => (
           <SingleBlog
@@ -40,13 +41,20 @@ const BlogMain = () => {
             handleMarkRead={handleMarkRead}
           ></SingleBlog>
         ))}
+        <div className="mt-5">
+          <BlogQA></BlogQA>
+        </div>
       </div>
-      <div className="col-lg-4">
-        <h2>Spent time on read: {readingTime}min</h2>
-        <h2>Book Marked Blogs :{markedBlogs.length}</h2>
-        {markedBlogs.map((aMark) => (
-          <SideBar aMark={aMark}></SideBar>
-        ))}
+      <div className="col-lg-4 ">
+        <div className="sticky">
+          <h2 className="spentTime">Spent time on read: {readingTime}min</h2>
+          <div className="markedBlogs">
+            <h2>Book Marked Blogs :{markedBlogs.length}</h2>
+            {markedBlogs.map((aMark) => (
+              <SideBar aMark={aMark}></SideBar>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <nav className="navbar bg-body-tertiary navbar-expand-lg">
       <div className="container">
-        <h4>Knowledge Cafe </h4>
+        <h4 className="blogName">Knowledge Cafe </h4>
         <button
           className="navbar-toggler"
           type="button"
