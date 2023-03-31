@@ -24,7 +24,7 @@ const SingleBlog = (props) => {
         <p className="card-text">
           <button
             className="btn btn-info"
-            onClick={() => handleMarkRead(blogTitle)}
+            onClick={() => handleMarkRead(blogTitle, readTime)}
           >
             Mark as red
           </button>

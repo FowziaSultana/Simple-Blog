@@ -8,6 +8,7 @@ import Swal from "sweetalert2";
 
 const BlogMain = () => {
   const [markedBlogs, setMarkBlog] = useState([]);
+  const [readingTime, setTime] = useState(0);
 
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
@@ -15,10 +16,18 @@ const BlogMain = () => {
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
-  const handleMarkRead = (title) => {
+  const handleMarkRead = (title, readTime) => {
     let tempArr = [...markedBlogs, title];
     setMarkBlog(tempArr);
-    Swal.fire("Good job!", "You clicked the button!", "success");
+    setTime(readingTime + readTime);
+
+    if (markedBlogs.includes(title)) {
+      Swal.fire(
+        "Hello Dear Reader!",
+        "You Have Already Bookmarked This Blog",
+        "success"
+      );
+    }
   };
 
   return (
@@ -33,7 +42,8 @@ const BlogMain = () => {
         ))}
       </div>
       <div className="col-lg-4">
-        <h1>Book Marked Blogs :{markedBlogs.length}</h1>
+        <h2>Spent time on read: {readingTime}min</h2>
+        <h2>Book Marked Blogs :{markedBlogs.length}</h2>
         {markedBlogs.map((aMark) => (
           <SideBar aMark={aMark}></SideBar>
         ))}
