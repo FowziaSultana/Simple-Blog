@@ -14,7 +14,7 @@ const SingleBlog = (props) => {
   const handleBookMark = props.handleBookMark;
   const handleMarkRead = props.handleMarkRead;
   return (
-    <div className="card mb-3s">
+    <div className="card mb-5">
       <img src={blogCoverImages} className="card-img-top" alt="..." />
       <div className="card-body">
         <div className="d-flex justify-content-between align-items-center">
@@ -48,14 +48,11 @@ const SingleBlog = (props) => {
             </span>
           </div>
         </div>
-        <h5 className="card-title text-start ">{blogTitle}</h5>
-        <p className="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
-        </p>
-        <p className="card-text">
+        <h5 className="text-start ">{blogTitle}</h5>
+
+        <p className="text-start">
           <button
-            className="btn btn-info"
+            className="btn markRead"
             onClick={() => handleMarkRead(readTime)}
           >
             Mark as read
