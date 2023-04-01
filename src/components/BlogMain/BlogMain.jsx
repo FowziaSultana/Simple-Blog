@@ -17,10 +17,9 @@ const BlogMain = () => {
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
-  const handleMarkRead = (title, readTime) => {
+  const handleBookMark = (title) => {
     let tempArr = [...markedBlogs, title];
     setMarkBlog(tempArr);
-    setTime(readingTime + readTime);
 
     if (markedBlogs.includes(title)) {
       Swal.fire(
@@ -30,6 +29,9 @@ const BlogMain = () => {
       );
     }
   };
+  const handleMarkRead = (readTime) => {
+    setTime(readingTime + readTime);
+  };
 
   return (
     <div className=" container row mx-auto mt-5 ">
@@ -38,6 +40,7 @@ const BlogMain = () => {
           <SingleBlog
             aBlog={aBlog}
             key={aBlog.id}
+            handleBookMark={handleBookMark}
             handleMarkRead={handleMarkRead}
           ></SingleBlog>
         ))}

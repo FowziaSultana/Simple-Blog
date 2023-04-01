@@ -4,7 +4,7 @@
 		"authorName": "Sarah Odom",
 		"blogTitle": "ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor",
 		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"authorImages": "/src/assests/images/author-1.png",
+		"authorImages": "https://images.pexels.com/photos/3812742/pexels-photo-3812742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"readTime": 9,
 		"publishDate": "May 11, 2022"
 	},
@@ -13,7 +13,7 @@
 		"authorName": "Benjamin Irwin",
 		"blogTitle": "nunc ac mattis ornare, lectus ante dictum mi, ac mattis",
 		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"authorImages": "/src/assests/images/author-2.png",
+		"authorImages": "https://images.pexels.com/photos/8365066/pexels-photo-8365066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"readTime": 2,
 		"publishDate": "Aug 14, 2022"
 	},
@@ -22,7 +22,7 @@
 		"authorName": "Carla Anthony",
 		"blogTitle": "iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur",
 		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"authorImages": "/src/assests/images/author-3.png",
+		"authorImages": "https://images.pexels.com/photos/8365068/pexels-photo-8365068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"readTime": 8,
 		"publishDate": "Oct 3, 2022"
 	},
@@ -31,7 +31,7 @@
 		"authorName": "Evan Hopkins",
 		"blogTitle": "dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu",
 		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"authorImages": "../src/assests/images/author-4.png",
+		"authorImages": "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"readTime": 8,
 		"publishDate": "Apr 10, 2022"
 	}
