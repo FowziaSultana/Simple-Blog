@@ -1,38 +1,38 @@
 [
 	{
-		"id": "82EE1D5D-176F-B84A-E1A1-DE5CE9DD4952",
-		"authorName": "Sarah Odom",
-		"blogTitle": "ullamcorper viverra. Maecenas iaculis aliquet diam. Sed diam lorem, auctor",
-		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"authorImages": "https://images.pexels.com/photos/3812742/pexels-photo-3812742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"readTime": 9,
-		"publishDate": "May 11, 2022"
-	},
-	{
 		"id": "414C5331-FDEE-9253-AED1-643C4845D536",
 		"authorName": "Benjamin Irwin",
-		"blogTitle": "nunc ac mattis ornare, lectus ante dictum mi, ac mattis",
-		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"blogTitle": "Twitter's new API pricing is killing many Twitter apps that can't pay $42,000 per month",
+		"blogCoverImages": "https://images.pexels.com/photos/58639/pexels-photo-58639.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"authorImages": "https://images.pexels.com/photos/8365066/pexels-photo-8365066.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"readTime": 2,
+		"readTime": 7,
 		"publishDate": "Aug 14, 2022"
 	},
+		
 	{
 		"id": "2617EEBA-2169-85BD-3B86-80B357177E63",
 		"authorName": "Carla Anthony",
-		"blogTitle": "iaculis nec, eleifend non, dapibus rutrum, justo. Praesent luctus. Curabitur",
-		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"blogTitle": "Oh great, Microsoft's Bing AI chatbot is getting more ads",
+		"blogCoverImages": "https://images.pexels.com/photos/355948/pexels-photo-355948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"authorImages": "https://images.pexels.com/photos/8365068/pexels-photo-8365068.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"readTime": 8,
+		"readTime": 10,
 		"publishDate": "Oct 3, 2022"
 	},
 	{
 		"id": "A4DD8D6E-DFCC-2866-A9D1-2E8963D5688A",
 		"authorName": "Evan Hopkins",
-		"blogTitle": "dictum. Proin eget odio. Aliquam vulputate ullamcorper magna. Sed eu",
+		"blogTitle": "New Thin & Light Creator Laptops from ASUS Shine at CES 2023",
 		"blogCoverImages": "https://images.pexels.com/photos/2312369/pexels-photo-2312369.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-		"authorImages": "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"authorImages": "https://images.pexels.com/photos/947885/pexels-photo-947885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
 		"readTime": 8,
 		"publishDate": "Apr 10, 2022"
+	},{
+		"id": "82EE1D5D-176F-B84A-E1A1-DE5CE9DD4952",
+		"authorName": "Sarah Odom",
+		"blogTitle": "Nonprofit files FTC complaint against OpenAI's GPT-4",
+		"blogCoverImages": "https://helios-i.mashable.com/imagery/articles/03QP3SXQEWzvWJ3AGxwvMpj/hero-image.fill.size_1248x702.v1680196519.jpg",
+		"authorImages": "https://images.pexels.com/photos/16094061/pexels-photo-16094061.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+		"readTime": 12,
+		"publishDate": "May 11, 2022"
 	}
 ]

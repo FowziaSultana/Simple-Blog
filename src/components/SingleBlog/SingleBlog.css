@@ -6,10 +6,21 @@
 }
 .authorName {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 160%;
   color: #111111;
 }
 .markRead {
-  color: blueviolet;
+  color: #752be2;
+  text-decoration: underline;
+}
+.markRead:hover {
+  background: #cc93ec;
+  color: white;
+}
+
+.blogTitle {
+  font-weight: 700;
+  font-size: 25px;
+  color: #111111;
 }

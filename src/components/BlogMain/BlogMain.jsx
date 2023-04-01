@@ -17,20 +17,22 @@ const BlogMain = () => {
       .then((res) => res.json())
       .then((data) => setBlogs(data));
   }, []);
-  const handleBookMark = (title) => {
+  const handleBookMark = (title, id) => {
     let tempArr = [...markedBlogs, title];
     setMarkBlog(tempArr);
+    document.getElementById(id).style.fill = "blueviolet";
 
     if (markedBlogs.includes(title)) {
       Swal.fire(
-        "Hello Dear Reader!",
+        "Hello Reader!",
         "You Have Already Bookmarked This Blog",
         "success"
       );
     }
   };
-  const handleMarkRead = (readTime) => {
+  const handleMarkRead = (readTime, id) => {
     setTime(readingTime + readTime);
+    document.getElementById(id).style.color = "blueviolet";
   };
 
   return (
@@ -44,7 +46,8 @@ const BlogMain = () => {
             handleMarkRead={handleMarkRead}
           ></SingleBlog>
         ))}
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
+          <h3 className="fw-bold">Assignment Questions</h3>
           <BlogQA></BlogQA>
         </div>
       </div>
